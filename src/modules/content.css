@@ -1,0 +1,44 @@
+/* Content Container Styles */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Content Box Styles */
+  .content-box {
+    width: 800px;
+    background-color: #A51C30;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Box Header Styles */
+  .box-header {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Box Address Styles */
+  .box-address {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Box Description Styles */
+  .box-description {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Box Status Styles */
+  .box-status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
