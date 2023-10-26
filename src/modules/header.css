@@ -1,0 +1,153 @@
+/* Header Container Styles */
+.header-container {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Title Styles */
+/* Title Styles */
+.header-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0; /* Reduce the top and bottom padding */
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #A51C30;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Box Container Styles */
+.box-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap to the next row if needed */
+  justify-content: center;
+  padding: 0px 0; /* Reduce the top and bottom padding */
+}
+
+/* Box Styles */
+.box {
+  width: 120px;
+  height: 40px;
+  background-color: #A51C30;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px; /* Adjust spacing between the boxes as needed */
+}
+
+/* Button Styles */
+.add-button {
+  background-color: #a51c30;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+/* Profile Info Styles */
+.profile-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 40px; /* Add padding to align with the header */
+  font-size: 14px;
+}
+
+/* Profile Details Styles */
+.profile-pic {
+  position: relative;
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  background-color: #fff; /* White circle background */
+  border-radius: 50%; /* Create a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  transition: background-color 0.3s; /* Add a transition for smooth color change */
+}
+
+.profile-pic:hover {
+  background-color: #a51c30; /* Change the background color on hover */
+}
+
+.profile-pic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 10px solid #ffff; /* White border color */
+  border-radius: 50%; /* Create a circle */
+  z-index: -1;
+}
+.profile-details {
+  color: #ddd; /* Adjust color as needed */
+}
+
+
+/* Box Container Styles */
+.box-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Box Styles */
+.box {
+  width: 120px;
+  height: 40px;
+  background-color: #A51C30;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.box:hover {
+  background-color: #74121d;
+}
+
+/* Button Styles */
+.add-button {
+  background-color: #a51c30;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #74121d;
+}
